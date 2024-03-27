@@ -1,0 +1,16 @@
+{
+    "name": "Title Display",
+    "description": "The Title Display of the current tab extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+    }
+}
